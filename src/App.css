@@ -103,7 +103,7 @@ body {
   margin-left: 0;
 }
 .header_section h1 {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -116,4 +116,40 @@ body {
 .banner_img {
   padding: 0 30px;
   margin-top: 150px;
+}
+.services {
+  background: #78797e;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+}
+
+.main_header {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.main_content {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+
+.common_border {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
 }
