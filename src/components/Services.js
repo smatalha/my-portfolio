@@ -20,7 +20,25 @@ const Services = () => {
                                 <FaGithub className="common_icons"/>
                                 <div className="services_box_header">Web Development</div>
                                 <div className="services_box_text">
-                                    I do develop charismatic web 
+                                    I do develop charismatic web
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <div className="services_box">
+                                <FaGithub className="common_icons"/>
+                                <div className="services_box_header">Web Development</div>
+                                <div className="services_box_text">
+                                    I do develop charismatic web
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <div className="services_box">
+                                <FaGithub className="common_icons"/>
+                                <div className="services_box_header">Web Development</div>
+                                <div className="services_box_text">
+                                    I do develop charismatic web
                                 </div>
                             </div>
                         </div>
