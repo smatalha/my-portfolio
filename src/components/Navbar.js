@@ -5,9 +5,9 @@ const Navbar = () => {
         <nav className= "navbar">
             <div className= "container">
                 <div className="navbar__container">
-                    <ul className="navbar__left">
+                    <ul className="navbar_left">
                             {/* <img src="/images/logo.png" alt="logo" /> */}
-                        <a data-placement="bottom" href="/index" target="_blank" title="Coded by Creative Tim" class="navbar-brand">Md Abu Talha Mian</a>
+                        <a data-placement="bottom" href="/index" target="_blank" title="Coded by Talha" class="navbar-brand">Md Abu Talha Mian</a>
                     </ul>
                     <ul className= "navbar_right">
                         <li> <a href="">Home</a></li>

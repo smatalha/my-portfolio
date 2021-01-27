@@ -46,6 +46,10 @@ body {
 /* .navbar__left-logo img {
   width: 110px;
 } */
+
+.navbar-brand {
+  text-decoration: none;
+}
 .navbar_right {
   display: flex;
   list-style-type: none;
