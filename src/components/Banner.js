@@ -28,10 +28,8 @@ const Banner = () => {
                 </div>
                 <div className="col-6">
                     <img className="banner_img" src={state.image} alt="Talha" />
-
                 </div>
             </div>
-
         </div>
     </header>
 }

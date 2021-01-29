@@ -3,6 +3,8 @@ import Header from "./components/Banner"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
 import About from "./components/About"
+import Projects from "./components/Projects"
+
 
 
 
@@ -13,6 +15,7 @@ function App() {
       <Navbar />
       <Services />
       <About />
+      <Projects />
     </div>
   );
 }
