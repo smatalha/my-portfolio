@@ -40,7 +40,9 @@ const About = () => {
                                     <strong>{info.title}</strong>
                                     <p>{info.text}</p>
                                 </div>
-                                ))}
+                                )
+                                )
+                                }
                             </div>
                         </div>
                     </div>
