@@ -2,8 +2,10 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div>
-            
+        <div className="skills">
+            <div className="container">
+                
+            </div>
         </div>
     )
 }
