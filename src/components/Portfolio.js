@@ -8,90 +8,46 @@ import React from 'react'
 //     FaReact
 // } from "react-icons/fa";
 import {  DiRor} from "react-icons/di";
-import { SiRails, SiRuby, SiGithub, SiReact, SiHtml5, SiCss3, SiVisualstudio, SiPostgresql, SiJavascript } from "react-icons/si";
+import { SiYoutube} from "react-icons/si";
 
 
 const Portfolio = () => {
     const [header] = React.useState({
     // mainHeader: "PORTFOLIO",
-    subHeading: "My Portfolio",
+    subHeading: "Portfolio",
     text:
         "",
     });
         const [state] = React.useState([
     {
         id: 1,
-        icon: <SiGithub className="common_icons" />,
-        heading: "Github",
+        icon: <SiYoutube className="common_icons" />,
+        heading: "Explore The Heritage",
         text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "React web-application with Rails back-end that helps travelers find heritage sites, make their wishlist, track visited sites, leave a comment about the site and delete that comment",
     },
     {
         id: 2,
-        icon: <SiRuby className="common_icons" />,
-        heading: "Ruby",
+        icon: <SiYoutube className="common_icons" />,
+        heading: "EventInc",
         text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Event planner where users track an event, create an event, make a to-do list. Designed with Ruby on Rails as back-end and React as front end. Authenticated users at login by encrypting identifying account information via JWT",
     },
     {
         id: 3,
-        icon: <DiRor className="common_icons" />,
-        heading: "Rails",
+        icon: <SiYoutube className="common_icons" />,
+        heading: "Coin Market Watch",
         text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Coin market watch tracks crypto currency. Built an SPA entirely on Ruby, using Rails as backend and embedded Ruby as frontend. Utilized API data from Nomics & Coingecko to create crypto tracker",
     },
-        {
-        id: 1,
-        icon: <SiJavascript  className="common_icons" />,
-        heading: "JScript",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-    {
-        id: 4,
-        icon: <SiHtml5 className="common_icons" />,
-        heading: "HTML",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-    {
-        id: 5,
-        icon: <SiCss3 className="common_icons" />,
-        heading: "CSS",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-        {
-        id: 6,
-        icon: <SiReact className="common_icons" />,
-        heading: "React",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-        {
-        id: 1,
-        icon: <SiVisualstudio className="common_icons" />,
-        heading: "VScode",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-        {
-        id: 1,
-        icon: <SiPostgresql className="common_icons" />,
-        heading: "Pgresql",
-        text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
-    },
-    
+    //     {
+    //     id: 1,
+    //     icon: <SiJavascript  className="common_icons" />,
+    //     heading: "JScript",
+    //     text:
+    //     "Lorem Ipsum is simply dummy text of the printing typesetting\
+    //     industry. simply dummy",
+    // },
     ]);
     return (
         <div className="portfolio">
@@ -105,12 +61,14 @@ const Portfolio = () => {
                     </div>
                     <div className="row">
                         {state.map((info) => (
-                        <div className="col-9">
+                        <div className="col-4">
                             <div className="portfolio_box">
-                                {info.icon}
                                 <div className="portfolio_box_header">{info.heading}</div>
                                 <div className="portfolio_box_text">
-                                    {/* {info.text} */}
+                                    {info.text}
+                                </div>
+                                <div className="icon">
+                                    {info.icon}
                                 </div>
                             </div>
                         </div>

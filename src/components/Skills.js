@@ -16,7 +16,7 @@ import {
 const Skills = () => {
     const [header] = React.useState({
     // mainHeader: "PORTFOLIO",
-    subHeading: "My Skills",
+    subHeading: "Skills",
     text:
         "My current tech stack.",
     });
@@ -46,7 +46,7 @@ const Skills = () => {
         industry. simply dummy",
     },
         {
-        id: 1,
+        id: 4,
         icon: <SiJavascript  className="common_icons" />,
         heading: "JScript",
         text:
@@ -54,7 +54,7 @@ const Skills = () => {
         industry. simply dummy",
     },
     {
-        id: 4,
+        id: 5,
         icon: <SiHtml5 className="common_icons" />,
         heading: "HTML",
         text:
@@ -62,7 +62,7 @@ const Skills = () => {
         industry. simply dummy",
     },
     {
-        id: 5,
+        id: 6,
         icon: <SiCss3 className="common_icons" />,
         heading: "CSS",
         text:
@@ -70,7 +70,7 @@ const Skills = () => {
         industry. simply dummy",
     },
         {
-        id: 6,
+        id: 7,
         icon: <SiReact className="common_icons" />,
         heading: "React",
         text:
@@ -78,7 +78,7 @@ const Skills = () => {
         industry. simply dummy",
     },
         {
-        id: 1,
+        id: 8,
         icon: <SiVisualstudio className="common_icons" />,
         heading: "VScode",
         text:
@@ -86,14 +86,13 @@ const Skills = () => {
         industry. simply dummy",
     },
         {
-        id: 1,
+        id: 9,
         icon: <SiPostgresql className="common_icons" />,
         heading: "Pgresql",
         text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
         industry. simply dummy",
     },
-    
     ]);
     return (
         <div className="skills">

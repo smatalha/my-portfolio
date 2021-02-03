@@ -263,10 +263,75 @@ font-family: fantasy;
 .contact_info .col-6 {
   margin: 10px 0px;
 }
+/* portfolio */
 .portfolio {
   width: 100%;
   background: #1f2235;
   padding: 100px 0;
+}
+
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+}
+
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.portfolio_box {
+  padding: 40px;
+  background: #23263a;
+  color: #fff;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+
+.portfolio_box:hover {
+  background: #ff4a57;
+}
+
+.commonIcons {
+  font-size: 40px;
+  color: #ff4a57;
+  margin-bottom: 15px;
+}
+
+.portfolio_box:hover .commonIcons {
+  color: #fff;
+}
+
+.portfolio_box_header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.portfolio_box-p {
+  font-size: 14px;
+  color: #dfdfdf;
 }
 .contact {
   padding: 100px 0;
