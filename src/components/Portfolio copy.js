@@ -94,9 +94,9 @@ const Portfolio = () => {
     
     ]);
     return (
-        <div className="portfolio">
+        <div className="services">
             <div className="container">
-                <div className="portfolio_header">
+                <div className="services_header">
                     <div className="common">
                         <h3 className="heading">{header.mainHeader}</h3>
                         <h1 className="main_header">{header.subHeading}</h1>
@@ -106,10 +106,10 @@ const Portfolio = () => {
                     <div className="row">
                         {state.map((info) => (
                         <div className="col-9">
-                            <div className="portfolio_box">
+                            <div className="services_box">
                                 {info.icon}
-                                <div className="portfolio_box_header">{info.heading}</div>
-                                <div className="portfolio_box_text">
+                                <div className="services_box_header">{info.heading}</div>
+                                <div className="services_box_text">
                                     {/* {info.text} */}
                                 </div>
                             </div>

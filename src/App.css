@@ -82,6 +82,9 @@ font-family: fantasy;
 .col-6 {
   width: 50%;
 }
+.col-9 {
+  width: 15%;
+}
 
 .header_content{
   display: flex;
@@ -136,8 +139,8 @@ font-family: fantasy;
   padding: 0 30px;
   margin-top: 150px;
 }
-.services {
-  background: #78797e;
+.skills {
+  background: #23263a;
   padding: 100px 0;
   color: #fff;
 }
@@ -176,17 +179,17 @@ font-family: fantasy;
 .col-4 {
   width: 33.33333333333333%;
 }
-.services_box {
+.skills_box {
   padding: 40px;
-  background: #23263a;
+  background: #1f2235;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
 }
-.services_box:hover {
+.skills_box:hover {
   background: #ff4a57;
 }
-.services_box:hover .common_icons  {
+.skills_box:hover .common_icons  {
   color: #fff;
 }
 .common_icons {
@@ -195,20 +198,20 @@ font-family: fantasy;
   margin-bottom: 15px;
 }
 
-.services_box_header {
+.skills_box_header {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.services_box_text {
+.skills_box_text {
   font-size: 14px;
   color: #dfdfdf;
 }
 
 .about {
   width: 100%;
-  background: #23263a;
+  background: #1f2235;
   padding: 100px 0;
 }
 
@@ -260,7 +263,11 @@ font-family: fantasy;
 .contact_info .col-6 {
   margin: 10px 0px;
 }
-
+.portfolio {
+  width: 100%;
+  background: #1f2235;
+  padding: 100px 0;
+}
 .contact {
   padding: 100px 0;
   background: #23263a;
@@ -312,7 +319,9 @@ font-family: fantasy;
   .col-6 {
     width: 100%;
   }
-
+.col-9 {
+  width: 100%;
+}
   .col-3 {
     width: 100%;
   }
