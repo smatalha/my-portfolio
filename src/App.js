@@ -1,14 +1,10 @@
 import "./App.css";
 import Header from "./components/Banner"
 import Navbar from "./components/Navbar"
-import Services from "./components/Services"
+import Portfolio from "./components/Portfolio"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
-
-
-
-
 
 function App() {
   return (
@@ -16,7 +12,7 @@ function App() {
       <Header />
       <Navbar />
       <About />
-      <Services />
+      <Portfolio />
       <Projects />
       < Contact />
     </div>

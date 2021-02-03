@@ -14,7 +14,7 @@ const About = () => {
             <div className="container">
                 <div className="common">
                     <h1 className="main_header">{header.subHeading}</h1>
-                    <p className="main_content">{header.text}</p>
+                    {/* <p className="main_content">{header.text}</p> */}
                     <div className="common_border"></div>
                 </div>
                 <div className="row h-650 alignCenter">
@@ -27,10 +27,11 @@ const About = () => {
                         <div className="about_info">
                             <h1>Hi There</h1>
                             <div className="about_info_p1">
-                                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis
+                                I am a Full stack web developer with experience in AutoCAD draftsmanship, design planning and client relations.
                             </div>
                             <div className="about_info_p2">
-                                nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis porta sem turpis quis leo. Nulla in feugiat elit
+                                I’m an intellectually curious and motivated developer who knows how to master complex material
+                                quickly, collaborate with a range of stakeholders, prioritize competing tasks under pressure, meet deadlines, and deliver a high quality product for the client.
                             </div>
                         </div>
                         <div className="contact_info">

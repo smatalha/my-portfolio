@@ -5,9 +5,7 @@ const Banner = () => {
     const [state] = React.useState({
         title: "I am Md Abu Talha Mian",
         text:
-            "A software developer  From New York.\
-            Some of the stacks i'm working with are Ruby,\
-            Ruby on Rails, Javascript, React.js",
+            "I am a Full-Stack Software Engineer. I’m very interested in any projects looking for development support or consultancy, especially startups and am keeping my eye out for internships.",
         image: "/images/talha2.png",
     });
     return <header className="header">

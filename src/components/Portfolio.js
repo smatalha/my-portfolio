@@ -8,12 +8,12 @@ import {
 } from "react-icons/fa";
 
 
-const Services = () => {
+const Portfolio = () => {
     const [header] = React.useState({
-    mainHeader: "SERVICES",
-    subHeading: "My Services",
+    // mainHeader: "PORTFOLIO",
+    subHeading: "My Portfolio",
     text:
-        "I'm passionate about what i do. I follow my Dream.",
+        "",
     });
         const [state] = React.useState([
     {
@@ -86,4 +86,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Portfolio;
