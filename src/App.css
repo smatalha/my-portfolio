@@ -26,7 +26,8 @@ body {
   /* opacity: 0.1; */
   position: fixed;
   top: 0;
-  background: #b3c2b2;
+  /* background: #b3c2b2; */
+  background: #23263a;
   z-index: 1;
   /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
 }
@@ -169,6 +170,12 @@ body {
   margin: 20px;
   transition: all 0.5s linear;
 }
+.services_box:hover {
+  background: #ff4a57;
+}
+.services_box:hover .common_icons  {
+  color: #fff;
+}
 .common_icons {
   font-size: 40px;
   color: #ff4a57;
@@ -231,4 +238,110 @@ body {
 
 .contact_info .col-6 {
   margin: 10px 0px;
+}
+
+.contact {
+  padding: 100px 0;
+  background: #23263a;
+}
+.contactCircles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #1f2235;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contactCircles li:hover {
+  background: #ff4a57;
+}
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .navbar_right {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: #1f2235;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .navbar_right li a {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .banner_img img {
+    display: none;
+  }
+
+  .header_section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .header_section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+
+  .common {
+    width: 100%;
+  }
+
+  .h-650 {
+    height: auto;
+  }
 }

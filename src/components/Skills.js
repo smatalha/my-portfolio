@@ -1,13 +1,12 @@
 import React from 'react'
 
-function Skills() {
+const Skills = () => {
     return (
-        <div className="skills">
-            <div className="container">
-                
-            </div>
+        <div>
+            
         </div>
     )
 }
 
-export default Skills;
+export default Skills
+
