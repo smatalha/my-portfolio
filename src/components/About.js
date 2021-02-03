@@ -14,13 +14,13 @@ const About = () => {
             <div className="container">
                 <div className="common">
                     <h1 className="main_header">{header.subHeading}</h1>
-                    <p className="main_context">{header.text}</p>
+                    <p className="main_content">{header.text}</p>
                     <div className="common_border"></div>
                 </div>
                 <div className="row h-650 alignCenter">
                     <div className="col-6">
                         <div className="about_img">
-                            <img src="/images/talha.png" alt="talha"/>
+                            <img src="/images/talha.1.png" alt="talha"/>
                         </div>
                     </div>
                     <div className="col-6">

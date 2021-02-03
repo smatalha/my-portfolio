@@ -5,8 +5,10 @@ const Banner = () => {
     const [state] = React.useState({
         title: "I am Md Abu Talha Mian",
         text:
-            "A software developer \ From New York. Some of the stacks i'm working with are Ruby, Ruby on Rails, Javascript, React.js",
-        image: "/images/talha.1.png",
+            "A software developer  From New York.\
+            Some of the stacks i'm working with are Ruby,\
+            Ruby on Rails, Javascript, React.js",
+        image: "/images/talha2.png",
     });
     return <header className="header">
         <div className="container">
@@ -15,11 +17,11 @@ const Banner = () => {
                     <div className="header_content">
                         <div className="header_section">
                             <ul className="header_ul">
-                                <li><FaFacebookF/></li>
-                                <li><FaTwitter/></li>
-                                <li><FaPinterest/></li>
-                                <li><FaInstagram/></li>
-                                <li><FaMedium/></li>
+                                <li><FaFacebookF className="header_icon" /></li>
+                                <li><FaTwitter className="header_icon" /></li>
+                                <li><FaPinterest className="header_icon" /></li>
+                                <li><FaInstagram className="header_icon" /></li>
+                                <li><FaMedium className="header_icon" /></li>
                             </ul>
                             <h1>{state.title}</h1>
                             <p>{state.text}</p>

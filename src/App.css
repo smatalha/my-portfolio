@@ -14,8 +14,9 @@ body {
   /* background: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1952&q=80"); */
   /* background: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
   /* background-image: url("./images/pic3.jpg"); */
-  background-image: url("https://www.fg-a.com/wallpapers/2017-white-circles.jpg");
+  /* background-image: url("https://www.fg-a.com/wallpapers/2017-white-circles.jpg"); */
   /* background-image: url("https://apkpure.com/white-background/com.qanjerumbi.white.whitebackground#com.qanjerumbi.white.whitebackground-1"); */
+  background-color: #23263a;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -27,7 +28,8 @@ body {
   position: fixed;
   top: 0;
   /* background: #b3c2b2; */
-  background: #23263a;
+  /* background: #23263a; */
+  background-color: #1f2235;
   z-index: 1;
   /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
 }
@@ -40,9 +42,11 @@ body {
 }
 .navbar-brand {
   text-transform: uppercase;
+/* font-family: 'Parisienne',cursive; */
+font-family: fantasy;
   color: #fff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 35px;
 }
 /* .navbar__left-logo img {
   width: 110px;
@@ -97,14 +101,23 @@ body {
 .header_ul li {
   width: 50px;
   height: 50px;
-  border: 2px solid #242222;
+  border: 2px solid #ff4a57;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s linear;
   margin: 0 10px;
 }
 
+.header_ul li:hover {
+  background: #fff;
+  border: 2px solid transparent;
+}
+
+.header_ul li:hover .header_icon {
+  color: #ff4a57;
+}
 .header_ul li:first-child {
   margin-left: 0;
 }
@@ -145,7 +158,7 @@ body {
 .main_header {
   font-size: 32px;
   margin-bottom: 20px;
-  color: rgb(2, 2, 2);
+  color: #fff;
 }
 
 .main_content {
@@ -192,6 +205,13 @@ body {
   font-size: 14px;
   color: #dfdfdf;
 }
+
+.about {
+  width: 100%;
+  background: #23263a;
+  padding: 100px 0;
+}
+
 .about_img {
   padding: 30px;
 }
@@ -202,7 +222,7 @@ body {
 }
 
 .about_info {
-  color: rgb(14, 13, 13);
+  color: #fff;
 }
 .h-650 {
   height: 650px;
@@ -227,6 +247,7 @@ body {
 
 .contact_info {
   margin-top: 20px;
+  color: #fff;
 }
 
 .contact_info strong {
