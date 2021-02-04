@@ -6,7 +6,7 @@ const Banner = () => {
         title: "I am Md Abu Talha Mian",
         text:
             "I am a Full-Stack Software Engineer. I’m very interested in any projects looking for development support or consultancy, especially startups and am keeping my eye out for internships.",
-        image: "/images/talha2.png",
+        image: "/images/images/talha2.png",
     });
     return <header className="header">
         <div className="container">
