@@ -1,12 +1,12 @@
 import React from 'react'
-// import {
-//     FaGithub,
+import {
+    FaGithub,
 //     FaCircleNotch,
 //     FaApple,
 //     FaFileVideo,
 //     FaSearchDollar,
 //     FaReact
-// } from "react-icons/fa";
+} from "react-icons/fa";
 import {  DiRor} from "react-icons/di";
 import { SiYoutube} from "react-icons/si";
 
@@ -21,28 +21,31 @@ const Portfolio = () => {
         const [state] = React.useState([
     {
         id: 1,
-        icon: <SiYoutube className="common_icons" />,
+        icony: <SiYoutube className="common_icons" />,
+        iconG: <FaGithub className="common_icons" />,
         heading: "Explore The Heritage",
         text:
         "React web-application with Rails back-end that helps travelers find heritage sites, make their wishlist, track visited sites, leave a comment about the site and delete that comment",
     },
     {
         id: 2,
-        icon: <SiYoutube className="common_icons" />,
+        icony: <SiYoutube className="common_icons" />,
+        iconG: <FaGithub className="common_icons" />,
         heading: "EventInc",
         text:
         "Event planner where users track an event, create an event, make a to-do list. Designed with Ruby on Rails as back-end and React as front end. Authenticated users at login by encrypting identifying account information via JWT",
     },
     {
         id: 3,
-        icon: <SiYoutube className="common_icons" />,
+        icony: <SiYoutube className="common_icons" />,
+        iconG: <FaGithub className="common_icons" />,
         heading: "Coin Market Watch",
         text:
         "Coin market watch tracks crypto currency. Built an SPA entirely on Ruby, using Rails as backend and embedded Ruby as frontend. Utilized API data from Nomics & Coingecko to create crypto tracker",
     },
     //     {
     //     id: 1,
-    //     icon: <SiJavascript  className="common_icons" />,
+    //     icony: <SiJavascript  className="common_icons" />,
     //     heading: "JScript",
     //     text:
     //     "Lorem Ipsum is simply dummy text of the printing typesetting\
@@ -63,13 +66,18 @@ const Portfolio = () => {
                         {state.map((info) => (
                         <div className="col-4">
                             <div className="portfolio_box">
-                                <div className="portfolio_box_header">{info.heading}</div>
+                                <div className="portfolio_box_header"><strong>{info.heading}</strong></div>
                                 <div className="portfolio_box_text">
                                     {info.text}
                                 </div>
-                                <div className="icon">
-                                    {info.icon}
-                                </div>
+                                <ul className="icon">
+                                    <li>
+                                        {info.icony}
+                                    </li>
+                                    <li>
+                                        {info.iconG}
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         ))}

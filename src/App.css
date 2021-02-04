@@ -78,7 +78,16 @@ font-family: fantasy;
   width: 100%;
   flex-wrap: wrap;
 }
-
+.icon {
+  margin: 24px 0;
+  padding: 0;
+}
+.icon li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    margin-bottom: 2px;
+}
 .col-6 {
   width: 50%;
 }
@@ -283,18 +292,18 @@ font-family: fantasy;
   font-size: 16px;
 }
 
-.mainHeader {
+.main_header {
   font-size: 32px;
   margin-bottom: 20px;
   color: #fff;
 }
 
-.mainContent {
+.main_content {
   font-size: 16px;
   color: #dfdfdf;
 }
 
-.commonBorder {
+.common_border {
   background: #ff4a57;
   height: 3px;
   width: 100px;
@@ -313,13 +322,13 @@ font-family: fantasy;
   background: #ff4a57;
 }
 
-.commonIcons {
+.common_icons {
   font-size: 40px;
   color: #ff4a57;
   margin-bottom: 15px;
 }
 
-.portfolio_box:hover .commonIcons {
+.portfolio_box:hover .common_icons {
   color: #fff;
 }
 
