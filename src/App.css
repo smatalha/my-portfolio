@@ -342,9 +342,108 @@ font-family: fantasy;
   font-size: 14px;
   color: #dfdfdf;
 }
+/*resume*/
+#resume {
+  background: #23263a;
+  color: #dfdfdf;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+section {
+  display: block;
+}
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.education, .work {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+#resume .header-col {
+  padding-top: 9px;
+}
+.row .three {
+  width: 25%;
+}
+.columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+#resume .main-col {
+  padding-right: 10%;
+}
+[class*="column"]+[class*="column"]:last-child {
+  float: right;
+}
+.row .row {
+  width: auto;
+  max-width: none;
+  margin: 0 -20px;
+}
+.row .twelve {
+  width: 100%;
+}
+#resume h3 {
+  font: 25px/30px 'opensans-bold', sans-serif;
+}
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+#resume .info {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+p {
+  margin: 0 0 30px 0;
+}
+#resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#resume .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
+}
+em {
+  font: 15px/30px 'opensans-italic', sans-serif;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#resume h1 span {
+  border-bottom: 3px solid #4e8383;
+  padding-bottom: 6px;
+} */
+/* .resume {
+  width: 100%;
+  background: #23263a;
+  padding: 100px 0;
+  color: #dfdfdf;
+}
+.title h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/*Contact*/
 .contact {
   padding: 100px 0;
-  background: #23263a;
+  background: #1f2235;
+  /* font-weight: 500; */
 }
 .contactCircles {
   width: 100%;
@@ -354,14 +453,15 @@ font-family: fantasy;
 }
 
 .contactCircles li {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   background: #1f2235;
+;
   margin: 0 10px;
   transition: all 0.5s linear;
   cursor: pointer;
