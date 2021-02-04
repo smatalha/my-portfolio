@@ -24,6 +24,7 @@ const Contact = () => {
                             <FaTwitterSquare />
                         </li>
                     </ul>
+                    <p> <strong>Love to code</strong></p>
                 </div>
             </div>
     )

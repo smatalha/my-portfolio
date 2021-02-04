@@ -50,7 +50,7 @@ const Resume = () => {
                             </div>
                             <div className="row item">
                                 <div className="twelve columns">
-                                    <h3>Bachelor Of Commerce, Major in Accounting</h3>
+                                    <h3>National University of Bangladesh</h3>
                                     <p className="info">
                                         Bachelor Of Commerce, Major in Accounting
                                         <span>.</span>
