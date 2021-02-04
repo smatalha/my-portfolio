@@ -20,7 +20,7 @@ const About = () => {
                 <div className="row h-650 alignCenter">
                     <div className="col-6">
                         <div className="about_img">
-                            <img src="/images/images/talha.1.png" alt="talha"/>
+                            <img src="https://pbs.twimg.com/media/EtZzuOeWQAAAcB1?format=png&name=small" alt="talha"/>
                         </div>
                     </div>
                     <div className="col-6">
