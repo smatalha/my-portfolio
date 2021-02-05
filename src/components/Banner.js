@@ -7,6 +7,7 @@ const Banner = () => {
         text:
             "I am a Full-Stack Software Engineer. I’m very interested in any projects looking for development support or consultancy, especially startups and am keeping my eye out for internships.",
         image: "https://pbs.twimg.com/media/EtZtwLIXYAMEbXd?format=png&name=900x900",
+        // image: "./images/talha2.png"
     });
     return <header className="header">
         <div className="container">

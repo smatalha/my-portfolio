@@ -21,6 +21,7 @@ const About = () => {
                     <div className="col-6">
                         <div className="about_img">
                             <img src="https://pbs.twimg.com/media/EtZzuOeWQAAAcB1?format=png&name=small" alt="talha"/>
+                            {/* <img src='<%=ResolveUrl("~/images/talha.1.png")%>' align="absmiddle" /> */}
                         </div>
                     </div>
                     <div className="col-6">
