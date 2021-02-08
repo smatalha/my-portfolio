@@ -7,7 +7,7 @@ import {
 //     FaSearchDollar,
 //     FaReact
 } from "react-icons/fa";
-import {  DiRor} from "react-icons/di";
+// import {  DiRor} from "react-icons/di";
 import { SiYoutube} from "react-icons/si";
 
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
     // },
     ]);
     return (
-        <div className="portfolio">
+        <section className="portfolio">
             <div className="container">
                 <div className="portfolio_header">
                     <div className="common">
@@ -84,7 +84,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css" ;
 import Header from "./components/Banner"
 import Navbar from "./components/Navbar"
 import Portfolio from "./components/Portfolio"
@@ -12,13 +13,14 @@ import Resume from "./components/Resume"
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <Navbar />
       <About />
       <Skills />
       <Portfolio />
-      <Resume />
+      <Resume /> */}
       {/* < Contact /> */}
+      <h2>Portfolio project.... </h2>
     </div>
   );
 }

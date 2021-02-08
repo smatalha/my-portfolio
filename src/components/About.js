@@ -10,7 +10,7 @@ const About = () => {
         {id:4, title: "LinkedIn:", text: "https://www.linkedin.com/in/mdabutalhamian"},
     ]);
     return (
-        <div className="about">
+        <section className="about">
             <div className="container">
                 <div className="common">
                     <h1 className="main_header">{header.subHeading}</h1>
@@ -50,7 +50,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
