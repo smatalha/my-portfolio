@@ -1,10 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css" ;
-import Header from "./components/Banner"
+import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 import Portfolio from "./components/Portfolio"
 import About from "./components/About"
-// import Contact from "./components/Contact"
+// import Contacts from "./components/Contacts"
 import Skills from "./components/Skills"
 import Resume from "./components/Resume"
 
@@ -13,14 +13,13 @@ import Resume from "./components/Resume"
 function App() {
   return (
     <div className="App">
-      {/* <Header />
       <Navbar />
+      <Header />
       <About />
       <Skills />
+      <Resume />
       <Portfolio />
-      <Resume /> */}
-      {/* < Contact /> */}
-      <h2>Portfolio project.... </h2>
+      {/* < Contacts /> */}
     </div>
   );
 }
