@@ -1,27 +1,46 @@
-import React from 'react'
+import React from "react"
+import {Link} from "react-scroll"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import Portfolio from "./Portfolio";
+// import Resume from "./Resume";
+// import Skills from "./Skills";
+// import About from "./About";
+// import Header from "./Header";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <div className="container">
+                <a className="navbar-brand" href="#">Talha</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <FontAwesomeIcon icon={faBars}  style={{ color: "#fff"}}/>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item active">
+                            <Link smooth= {true} to="home"  offset={-110} className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth= {true} to="about" offset={-110} className="nav-link" href="#">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth= {true} to="skills"  offset={-110} className="nav-link" href="#">Skills</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth= {true} to="resume"  offset={-110} className="nav-link" href="#">Resume</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth= {true} to="portfolio"  offset={-110} className="nav-link" href="#">Portfolio</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
 
 
 
@@ -39,7 +58,7 @@ export default Navbar
 //                 <div className="navbar__container">
 //                     <ul className="navbar_left">
 //                             {/* <img src="/images/logo.png" alt="logo" /> */}
-//                         <a data-placement="bottom" href="/index" target="_blank" title="Coded by Talha" className="navbar-brand"> Talha </a>
+//                         <Link data-placement="bottom" href="/index" target="_blank" title="Coded by Talha" className="navbar-brand"> Talha </Link>
 //                     </ul>
 //                     {state ? (
 //                     <div className= "navbar_right">
@@ -48,12 +67,6 @@ export default Navbar
 //                         <li> <a href="#skills">Skills</a></li>
 //                         <li> <a href="#portfolio">Portfolio</a></li>
 //                         <li> <a href="#resume">Resume</a></li>
-//                         {/* <Link to="/">Home</Link>
-//                         <Link to="/wishlist">Wish List</Link>
-//                         <Link to="/sites">Heritages</Link>
-//                         <Link to="/user">Profile</Link>
-//                         <Link to="/login">Login</Link>
-//                         <Link to="/about">about</Link> */}
 //                     </div>
 //                             ) : (
 //             ""
