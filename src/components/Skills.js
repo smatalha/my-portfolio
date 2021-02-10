@@ -79,7 +79,7 @@ const Skills = () => {
     {
         id: 1,
         icon: <SiGithub className="common_icons" />,
-        heading: "Github",
+        heading: "Git",
         text:
         "Lorem Ipsum is simply dummy text of the printing typesetting\
         industry. simply dummy",

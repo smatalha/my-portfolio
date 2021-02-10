@@ -9,6 +9,16 @@ const Resume = () => {
             <h1>Resume</h1>
             </div>
             <div className="container resume-wrapper">
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>August 2020 - Present</h3>
+                        <h2>Freelance Web Developer</h2>
+                        <h4>Ruby on Rails / React.js</h4>
+                        <p> I do design, code and modify websites, from layout to function and according to a client's specifications.</p>
+                    </div>
+                </div>
+                {/* - */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
@@ -48,11 +58,12 @@ const Resume = () => {
                         <p> Conducted on-site survey & field measurement, collaborated with clients regarding project goals and progress. Created conceptual designs, developed and revised CAD drawings, built physical models for client presentations. Presented drawings to the Dept of Buildings for plan examination, reviewed and discussed plans with examiners to secure plan approvals.</p>
                     </div>
                 </div>
+                {/* - */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2010</h3>
-                        <p>Moved To United States Of America</p>
+                        <h2>Moved to United States of America</h2>
                     </div>
                 </div>
                 {/* - */}

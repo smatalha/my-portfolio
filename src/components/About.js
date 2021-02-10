@@ -1,5 +1,6 @@
 import React from "react";
-import Image from "../talha2.jpg"
+import image from "../talha.1.jpg"
+// import Image from 'react-bootstrap/Image'
 
 const About = () => {
     return (
@@ -7,7 +8,10 @@ const About = () => {
             <div className="row">
                 <div className="col-lg-6  col-xm-12">
                     <div className="photo-wrap mb-5" >
-                        <img className="profile-img" src={Image} alt="talha"/>
+                        {/* <img className="profile-img" src={image} alt="talha" rounded/> */}
+                        <img src={image} className=" profile-img rounded float-left" alt="Talha"/>
+                        {/* <img className="profileImg" src={image} alt="talha" rounded /> */}
+                        {/* <Image src={image} rounded /> */}
                     </div>
                 </div>
                 <div className="col-lg-6  col-xm-12">
@@ -22,7 +26,7 @@ const About = () => {
                         I’m an intellectually curious and motivated developer who knows how to master complex material quickly, collaborate with a range of stakeholders, prioritize competing tasks under pressure, meet deadlines, and deliver a high quality product for the client.
                     </p>
                     <p>
-                        I’m very interested in any projects looking for development support or consultancy, especially startups and am keeping my eye out for internships.
+                        I'm always interested in projects needing motivated development support, and especially enjoy working with startups.  I'd love to add value to your business, whether as a full-time team member, apprentice, intern or freelance consultant.
                     </p>
                 </div>
             </div>
