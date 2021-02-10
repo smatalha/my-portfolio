@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f3f5c7f5.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.95eec568.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.95eec568.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.21ffbc7d.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.21ffbc7d.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.b47c9c33.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.b47c9c33.js.map",
     "static/css/2.a894a7ba.chunk.css": "/my-portfolio/static/css/2.a894a7ba.chunk.css",
@@ -16,13 +16,13 @@
     "static/media/App.css": "/my-portfolio/static/media/background1.d6d3549c.jpg",
     "static/media/coinMarketWatch.1dad84fd.png": "/my-portfolio/static/media/coinMarketWatch.1dad84fd.png",
     "static/media/event.ea55c199.png": "/my-portfolio/static/media/event.ea55c199.png",
-    "static/media/talha2.1bbbaa93.jpg": "/my-portfolio/static/media/talha2.1bbbaa93.jpg"
+    "static/media/talha.1.657c7350.jpg": "/my-portfolio/static/media/talha.1.657c7350.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b47c9c33.js",
     "static/css/2.a894a7ba.chunk.css",
     "static/js/2.053a4b24.chunk.js",
     "static/css/main.f3f5c7f5.chunk.css",
-    "static/js/main.95eec568.chunk.js"
+    "static/js/main.21ffbc7d.chunk.js"
   ]
 }
