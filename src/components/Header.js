@@ -1,6 +1,7 @@
 import React from "react"
 import Typed from "react-typed";
-import { /* FaFacebookF, */FaTwitter, FaLinkedin, FaMedium, FaGithub } from "react-icons/fa";
+import {Link} from "react-scroll"
+import { FaTwitter, FaLinkedin, FaMedium, FaGithub } from "react-icons/fa";
 
 
 const Header = () => {
@@ -28,13 +29,12 @@ const Header = () => {
                         <a className="hyper-link" onClick={() => window.open("https://medium.com/@sma.talha")}><FaMedium className="header_icon" />
                         </a>
                     </li>
-                    {/* <li><FaFacebookF className="header_icon" /></li> */}
                     <li>
                         <a className="hyper-link" onClick={() => window.open("https://twitter.com/SmaTalha")}><FaTwitter className="header_icon" />
                         </a>
                     </li>
                 </ul>
-                {/* <a href="#" className= "btn-main-offer">Contact Me</a> */}
+                {/* <Link smooth= {true} to="contact" offset={-110} className="nav-link" className= "btn-main-offer" href="#">Contact Me</Link> */}
             </div>
         </div>
     )
