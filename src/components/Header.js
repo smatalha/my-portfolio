@@ -1,6 +1,6 @@
 import React from "react"
 import Typed from "react-typed";
-import {Link} from "react-scroll"
+// import {Link} from "react-scroll"
 import { FaTwitter, FaLinkedin, FaMedium, FaGithub } from "react-icons/fa";
 
 
