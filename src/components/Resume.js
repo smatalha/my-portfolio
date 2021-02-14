@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <div id="resume" className="resume">
             <div className="d-flex justify-content-center my-5">
-            <h1>Resume</h1>
+                <h1>Resume</h1>
             </div>
             <div className="container resume-wrapper">
                 <div className="timeline-block timeline-block-left">
